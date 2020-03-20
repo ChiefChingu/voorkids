@@ -1,12 +1,12 @@
 .large-hero {
-    height: 400px;
+    height: 440px;
     /* background-image: url("assets/images/ameen-fahmy-_gEKtyIbRSM-unsplash.jpg"); */
     /* background-position: center;
     background-size: cover; */
     background-color: $mainBlue;
 
     h1 {
-        padding-top: 2rem;
+        padding-top: 2.5rem;
         text-align: center;
     }
 
