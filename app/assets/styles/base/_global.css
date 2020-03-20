@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  
 }
 
 img {
@@ -18,4 +18,39 @@ img {
 
 a {
   color: $mainOrange;
+}
+
+p {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  line-height: 28px;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+  weight: 500;
+  text-align: center;
+}
+
+h2, h3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.icon {
+  color: $mainPink;
+  display: block;
+  margin: 0 auto;
+}
+
+.blue {
+  background-color: $mainBlue;
+
 }

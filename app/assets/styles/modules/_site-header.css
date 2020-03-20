@@ -1,0 +1,28 @@
+.main-header {
+    /* height: 75px; */
+    border-top: 2px solid #e84d74;
+    border-bottom: 1px solid #e5e5e5;
+    
+    
+    h1 {
+        
+        padding-top: 25px;
+        text-align: center;
+        font-size: 3rem;
+        
+    }
+
+    h2 {
+        
+        position: relative;
+        top: 310px;
+        text-align: center; 
+        
+    }
+}
+
+.logo {
+    height: 75px;
+    margin: 0.3rem auto;
+    display: block;
+}

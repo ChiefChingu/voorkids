@@ -1,0 +1,24 @@
+.large-hero {
+    height: 400px;
+    /* background-image: url("assets/images/ameen-fahmy-_gEKtyIbRSM-unsplash.jpg"); */
+    /* background-position: center;
+    background-size: cover; */
+    background-color: $mainBlue;
+
+    h1 {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+.fa-lightbulb {
+    height: 100px;
+    margin: 2rem auto;
+    display: block;
+}
