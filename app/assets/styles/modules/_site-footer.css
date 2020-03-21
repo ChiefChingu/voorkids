@@ -2,5 +2,6 @@ footer {
     background-color: rgba(0,0,0,.8);
     color: #fff;
     padding: 75px 15px 55px;
-    border-bottom: 10px solid $mainPink;   
+    border-bottom: 10px solid $mainPink;
+    
 }
