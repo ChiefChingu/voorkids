@@ -1,5 +1,10 @@
 .explainer {
     margin-bottom: 2rem;
+
+    &__last {
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
 }
 
 .fridman {

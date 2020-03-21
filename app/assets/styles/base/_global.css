@@ -17,7 +17,7 @@ img {
 }
 
 a {
-  color: $mainOrange;
+  color: $mainPink;
 }
 
 p {
@@ -46,12 +46,6 @@ h2, h3 {
 .blue {
   background-color: $mainBlue;
 }
-
-/* .underline {
-  text-decoration: underline;
-  text-decoration-color: $mainPink;
-  text-decoration-thickness: 10%;
-} */
 
 .bold {
   color: $mainPink;
