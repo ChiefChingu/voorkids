@@ -28,8 +28,8 @@
         width: 20px;
         height: 19px;
         position: absolute;
-        top: 10px;
-        left: 10px;
+        top: 25px;
+        left: 20px;
         z-index: 3;
 
         &::before {
@@ -41,6 +41,7 @@
             height: 3px;
             background-color: $mainPink;
             transform-origin: 0 0;
+            transition: transform .3s ease-out;
         }
 
         &__middle {
@@ -50,6 +51,7 @@
             width: 20px;
             height: 3px;
             background-color: $mainPink;
+            transition: opacity .3s ease-out;
         }
 
         &::after {
@@ -61,6 +63,7 @@
             height: 3px;
             background-color: $mainPink;
             transform-origin: 0 100%;
+            transition: transform .3s ease-out;
         }
     }
 
@@ -100,13 +103,12 @@
         
     }
 
-      
       &__overlay-content {
         position: relative;
         /* top: 25%; */
         width: 100%;
         text-align: center;
-        margin-top: 30px;
+        /* margin-top: 30px; */
       }
       
       &__overlay a {
@@ -126,7 +128,8 @@
 }
 
 .logo {
-    height: 75px;
-    margin: 0.3rem auto;
+    height: 55px;
+    margin: 0.5rem auto;
     display: block;
+    
 }

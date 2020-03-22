@@ -1,13 +1,9 @@
 .primary-nav {
-    position: absolute;
-    background: $mainBlue;
-    top: 100%;
-    width: 100%;
-    display: none;
+    padding-top: 1rem;
     
     ul {
         list-style: none;
-        text-align: left;
+        text-align: center;
         padding: 0;   
 
         li {
