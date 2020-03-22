@@ -1,5 +1,7 @@
 .large-hero {
-    height: 440px;
+    padding-top: 125px;
+    padding-bottom: 2rem;
+    height: auto;
     /* background-image: url("assets/images/ameen-fahmy-_gEKtyIbRSM-unsplash.jpg"); */
     /* background-position: center;
     background-size: cover; */

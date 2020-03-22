@@ -1,8 +1,8 @@
 class MobileMenu {
   constructor() {
     this.menuIcon = document.querySelector(".site-header__menu-icon")
-    this.menuContent = document.querySelector(".site-header__menu-content")
-    this.siteHeader = document.querySelector(".site-header")
+    this.menuContent = document.querySelector(".site-header__overlay")
+    // this.siteHeader = document.querySelector(".site-header")
     this.events()
   }
 
@@ -11,10 +11,21 @@ class MobileMenu {
   }
 
   toggleTheMenu() {
-    this.menuContent.classList.toggle("site-header__menu-content--is-visible")
-    this.siteHeader.classList.toggle("site-header--is-expanded")
+    this.menuContent.classList.toggle("site-header__overlay--is-visible")
+    // this.siteHeader.classList.toggle("site-header--is-expanded")
     this.menuIcon.classList.toggle("site-header__menu-icon--close-x")
   }
 }
 
+
 export default MobileMenu
+
+
+// function openNav() {
+//   document.getElementById("myNav").style.height = "100%";
+// }
+
+// function closeNav() {
+//   document.getElementById("myNav").style.height = "0%";
+// }
+

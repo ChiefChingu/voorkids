@@ -1,7 +1,11 @@
-.main-header {
+.site-header {
     /* height: 75px; */
     border-top: 2px solid #e84d74;
     border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 2;
     
     
     h1 {
@@ -19,6 +23,106 @@
         text-align: center; 
         
     }
+
+    &__menu-icon {
+        width: 20px;
+        height: 19px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 3;
+
+        &::before {
+            content: "";    
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: $mainPink;
+            transform-origin: 0 0;
+        }
+
+        &__middle {
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: $mainPink;
+        }
+
+        &::after {
+            content: "";  
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: $mainPink;
+            transform-origin: 0 100%;
+        }
+    }
+
+    &__menu-icon--close-x {
+        &::before {
+            transform: rotate(45deg) scaleX(1.25);
+        }
+    
+        .site-header__menu-icon__middle {
+            opacity: 0;
+        }
+
+    
+        &::after {
+            transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+        }
+    }
+
+
+    &__overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: $mainBlue;
+        overflow-y: hidden;
+        transition: 0.5s;
+        border-top: 2px solid $mainPink;
+        border-bottom: 10px solid $mainPink;
+        display: none;
+
+    &--is-visible {
+        display: block;
+    }
+        
+    }
+
+      
+      &__overlay-content {
+        position: relative;
+        /* top: 25%; */
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      &__overlay a {
+        padding: 8px;
+        text-decoration: none;
+        color: black;
+        font-size: 36px;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      &__overlay a:hover, .overlay a:focus {
+        color: $mainPink;
+      }
+
+
 }
 
 .logo {
