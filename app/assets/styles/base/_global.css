@@ -48,6 +48,12 @@ h2, h3 {
 }
 
 .bold {
-  color: $mainPink;
-}   
+  color: $mainYellow;
+}
+
+.bigbold {
+  color: $mainYellow;
+  font-size: 5rem;
+  font-weight: bold;
+}  
 

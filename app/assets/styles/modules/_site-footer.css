@@ -6,7 +6,7 @@
     font-weight: 300;
     font-size: 0.8rem;
     line-height: 1.2rem;
-    border-bottom: 10px solid $mainPink;
+    border-bottom: 10px solid $mainTurq;
 
     &__social ul {
         text-align: center;

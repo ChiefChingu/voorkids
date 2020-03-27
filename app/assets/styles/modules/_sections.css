@@ -5,6 +5,13 @@
         margin-bottom: 0;
         padding-bottom: 2rem;
     }
+
+    &-grey {
+        background-color: $mainGrey;
+        /* background-image: url("assets/images/waves.svg");
+        background-position: center;
+        background-size: cover; */
+    }
 }
 
 .fridman {
@@ -15,9 +22,9 @@
 
 
 .section-title {
-    padding: 2rem 15px;
+    padding: 1rem 15px 0 15px;
     font-size: 26px;
-    line-height: 24px;
+    line-height: 36px;
     font-weight: 700;
     text-align: center;
 }

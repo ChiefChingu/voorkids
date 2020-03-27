@@ -2,20 +2,31 @@
     padding-top: 5rem;
     padding-bottom: 2rem;
     height: auto;
-    /* background-image: url("assets/images/ameen-fahmy-_gEKtyIbRSM-unsplash.jpg"); */
-    /* background-position: center;
-    background-size: cover; */
-    background-color: $mainBlue;
+    background-image: url("assets/images/waves.svg");
+    background-position: center;
+    background-size: cover;
+    /* background-color: $mainTurq; */
+    background-color: #52c5fb;
+    /* background-color: linear-gradient(45deg,#1083be,#178bc7); */
 
     h1 {
         padding-top: 2.5rem;
         text-align: center;
+        color: white;
+        font-size: 2.5rem;
     }
 
     h2 {
         text-align: center;
         font-size: 28px;
         line-height: 40px;
+        color: white;
+    }
+
+    &__icon {
+        color: white;
+        display: block;
+        margin: 1rem auto;
     }
 }
 

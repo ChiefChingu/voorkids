@@ -1,0 +1,64 @@
+.top-ten-card {
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-image: url("assets/images/waves.svg");
+    border-radius: 8px;
+    box-shadow: 0 10px 1rem rgba(0,0,0,.16);
+    color: #fff;
+    display: block;
+    margin: 2rem auto;
+    padding: 2rem 0;
+    text-align: center;
+    width: 90%;
+
+    &-blue {
+        background-color: $mainBlue;
+    }
+
+    &-pink {
+        background-color: $mainPink;
+    }
+
+    &-teal {
+        background-color: $mainTeal;
+    }
+
+    &__heading {
+        margin-top: 0;
+    }
+
+    &__banner {
+        background-color: $mainPurple;
+        width: 100%;
+        opacity: 0.9;
+        margin: 0;
+            padding: 0;
+
+        &--heading {
+            
+        }
+    }
+
+    &__content {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    &__note {
+        font-size: 12px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    
+
+    h3 {
+        font-size: 30px;
+        line-height: 38px;
+        font-weight: 700;      
+    }
+}
+
+

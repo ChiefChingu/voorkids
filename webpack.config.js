@@ -54,7 +54,7 @@ if (currentTask == 'dev') {
   }
   config.devServer = {
     before: function(app, server) {
-      server._watch('./app/**/*.html')
+      server._watch('./app/*.html')
     },
     contentBase: path.join(__dirname, 'app'),
     hot: true,
