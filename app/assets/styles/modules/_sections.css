@@ -14,13 +14,6 @@
     }
 }
 
-.fridman {
-    width: 85%;
-    margin: 0 auto;
-    display: block;
-}
-
-
 .section-title {
     padding: 1rem 15px 0 15px;
     font-size: 26px;
@@ -29,7 +22,13 @@
     text-align: center;
 }
 
-.fa-crosshairs, .fa-poll {
-    margin-bottom: 1rem;
-    padding-bottom: 2rem;
+.google-form {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.google-form-mobile {
+    grid-column-start: 2;
+    justify-self: center;
 }
