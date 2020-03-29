@@ -1,5 +1,6 @@
 .explainer {
     margin-bottom: 2rem;
+    text-align: center;
 
     &__last {
         margin-bottom: 0;

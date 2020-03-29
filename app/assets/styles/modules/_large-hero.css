@@ -6,8 +6,23 @@
     background-position: center;
     background-size: cover;
     /* background-color: $mainTurq; */
-    background-color: #52c5fb;
     /* background-color: linear-gradient(45deg,#1083be,#178bc7); */
+
+    &-main-hero {
+        background-color: $mainHero;
+    }
+
+    &-blue {
+        background-color: $mainBlue;
+    }
+
+    &-pink {
+        background-color: $mainPink;
+    }
+
+    &-teal {
+        background-color: $mainTeal;
+    }
 
     h1 {
         padding-top: 2.5rem;

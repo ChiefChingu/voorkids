@@ -2,7 +2,7 @@
     /* height: 75px; */
     /* border-top: 2px solid #e84d74;
     border-bottom: 1px solid #e5e5e5; */
-    border-top: 2px solid $mainTurq;
+    /* border-top: 2px solid $mainTurq; */
     position: fixed;
     background-color: $mainPurple;
     width: 100%;
