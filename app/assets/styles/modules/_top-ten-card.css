@@ -1,4 +1,25 @@
+/* .center-grid-wrap {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+} */
+
+.top-lists {
+    
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    display: grid;
+    
+    /* @mixin atMedium {
+        grid-template-columns: 1fr 1fr;
+    } */
+
+    @mixin atLarge {
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    }
+}
+
 .top-ten-card {
+    justify-self: center;
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -29,9 +50,9 @@
     }
 
     &__banner {
-        background-color: $mainPurple;
+        background-color: $mainYellow;
         width: 100%;
-        opacity: 0.9;
+        /* opacity: 0.9; */
         margin: 0;
             padding: 0;
 

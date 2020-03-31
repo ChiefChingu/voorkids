@@ -29,6 +29,11 @@
         text-align: center;
         color: white;
         font-size: 2.5rem;
+
+        @mixin atMedium {
+            /* position: relative; */
+            padding-top: 6.5rem;
+        }
     }
 
     h2 {

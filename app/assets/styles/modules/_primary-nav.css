@@ -19,3 +19,43 @@
     }
 }
 
+
+.primary-nav-desktop {
+    display: none;
+    
+    ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+       
+
+        li {
+            margin-bottom: 1em;
+            padding: 0 1rem;
+            display: inline;       
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+
+
+@mixin atMedium {
+    display: inline-block;
+    width: 100%;
+    
+
+
+    }
+
+
+}
+

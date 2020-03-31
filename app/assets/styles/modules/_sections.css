@@ -2,6 +2,10 @@
     margin-bottom: 2rem;
     text-align: center;
 
+    &__align-left {
+        text-align: left;
+    }
+
     &__last {
         margin-bottom: 0;
         padding-bottom: 2rem;
@@ -22,6 +26,8 @@
     font-weight: 700;
     text-align: center;
 }
+
+
 
 .google-form {
     margin-top: 3rem;

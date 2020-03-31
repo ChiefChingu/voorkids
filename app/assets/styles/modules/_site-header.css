@@ -8,14 +8,16 @@
     width: 100%;
     z-index: 2;
    
-    
+    @mixin atMedium {
+        position: absolute;
+        top: 50px;
+    }
     
     h1 {
         
         padding-top: 25px;
         text-align: center;
-        font-size: 3rem;
-        
+        font-size: 3rem;       
     }
 
     h2 {
@@ -33,6 +35,10 @@
         top: 25px;
         left: 20px;
         z-index: 3;
+
+        @mixin atMedium {
+            display: none;
+        }
 
         &::before {
             content: "";    
@@ -137,5 +143,9 @@
     height: 55px;
     margin: 0.5rem auto;
     display: block;
+
+    @mixin atMedium {
+        margin: 0 auto 1rem auto;
+    }
     
 }
