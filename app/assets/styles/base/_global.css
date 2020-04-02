@@ -4,7 +4,6 @@ html {
 
 body {
   font-family: 'Montserrat', 'Roboto', sans-serif;
-  
 }
 
 img {
@@ -17,7 +16,17 @@ img {
 }
 
 a {
-  color: $mainPink;
+  color: $mainOrange;
+}
+
+a:hover {
+  color: $mainPurple;
+  font-weight: 900;
+}
+
+.btn:hover {
+  background-color: $mainPurple;
+  color: white;
 }
 
 p {
@@ -25,7 +34,6 @@ p {
   padding-right: 15px;
   font-size: 20px;
   line-height: 28px;
-
 }
 
 h1 {
@@ -57,3 +65,6 @@ h2, h3 {
   font-weight: bold;
 }  
 
+.center {
+  text-align: center;
+}
