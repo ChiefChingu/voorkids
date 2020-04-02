@@ -102,3 +102,12 @@
     text-transform: uppercase;
 }
 
+.btn-inactive {
+    background-color: lightgray;
+    color: gray;
+}
+
+.btn-inactive:hover {
+    background-color: gray;
+    color:  lightgray;
+}

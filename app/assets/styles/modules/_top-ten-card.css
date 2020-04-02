@@ -7,8 +7,8 @@
     display: grid;
   
     @mixin atMedium {
-        /* grid-template-columns: repeat(auto-fill,minmax(325px,1fr)); */
-        grid-template-columns: minmax(5%,1fr) auto auto minmax(5%,1fr);
+        grid-template-columns: repeat(auto-fill,minmax(325px,1fr));
+        /* grid-template-columns: minmax(5%,1fr) auto auto auto minmax(5%,1fr); */
         grid-gap: 25px;
     }
 }
@@ -36,20 +36,20 @@
     &-blue {
         background-color: $mainBlue;
         
-        @mixin atMedium {
+        /* @mixin atMedium {
             grid-column-start: 2;
-        }
+        } */
     }
 
-    &-pink {
-        background-color: $mainPink;
+    &-purple {
+        background-color: $mainPurple;
     }
 
     &-green {
         background-color: $mainTeal;
-        @mixin atMedium {
+        /* @mixin atMedium {
             grid-column-start: 3;
-        }
+        } */
     }
 
     &__circle-blue {
@@ -82,6 +82,24 @@
             font-size: 5rem;
             font-weight: 900;
             color: #00cdc6;
+
+        }
+    }
+
+    &__circle-purple {
+        background-color: #502673;
+        border: solid #9559ca 7px;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        /* opacity: 0.9; */
+        margin: 0 auto;
+
+        &-text {
+            padding: 25px 25px;
+            font-size: 5rem;
+            font-weight: 900;
+            color: #9559ca;
 
         }
     }
