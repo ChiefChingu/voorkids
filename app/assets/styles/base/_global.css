@@ -68,3 +68,16 @@ h2, h3 {
 .center {
   text-align: center;
 }
+
+.video-container {
+  margin: 0 auto;
+  @mixin atMedium {
+    width: 75%;
+  }
+
+  @mixin atLarge {
+    width: 50%;
+  }
+ 
+
+}
