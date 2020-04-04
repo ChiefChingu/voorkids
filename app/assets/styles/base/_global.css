@@ -76,7 +76,11 @@ h2, h3 {
   }
 
   @mixin atLarge {
-    width: 50%;
+    width: 40%;
+  }
+
+  @mixin atXLarge {
+    width: 470px;
   }
  
 
