@@ -21,7 +21,7 @@
     }
 
     a:hover {
-        color: $mainPink;
+        color: $mainOrange;
     }
 
     &__nav ul{
@@ -34,6 +34,11 @@
         display: inline;
         padding: 0 10px;
       }
+
+    &__newsletter {
+        text-align: center;
+        font-size: 1rem;
+    }
 
     &__copyright {
         text-align: center;

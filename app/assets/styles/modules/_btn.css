@@ -111,3 +111,26 @@
     background-color: gray;
     color:  lightgray;
 }
+
+.footer {
+    /* background-color: $mainOrange; */
+    border: solid 1px white;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 2rem auto;
+    border-radius: 4px;
+    display: block;
+    padding: 0.75rem 1.5rem;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer:hover {
+    background-color: #333333;
+    color: #fff;
+    border-color: $mainOrange;
+    color: white;
+}
